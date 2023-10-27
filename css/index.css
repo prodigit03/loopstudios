@@ -11,7 +11,7 @@
     height: 100vh;
 }
 .wrapper{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 .flexBox{
@@ -49,7 +49,111 @@
 }
 .backgroundimage2{
     background-image: url(../assets/mobile/image-deep-earth.jpg);
-    background-size: cover;
-
-    background-position: center;
+    background-size: contain;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+.earth{
+    color: white;
+    width: 30%;
+    font-size: 1.5em;
+    margin-left: 1em;
+    padding-top: 1.5em;
+}
+.background3{
+    background-image: url(../assets/mobile/image-night-arcade.jpg);
+    background-size: contain;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+.background4{
+    background-image: url(../assets/mobile/image-soccer-team.jpg);
+    background-size: contain;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+.background5{
+    background-image: url(../assets/mobile/image-grid.jpg);
+    background-size: contain;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+.background6{
+    background-image: url(../assets/mobile/image-from-above.jpg);
+    background-size: contain;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+.above{
+    color: white;
+    width: 50%;
+    font-size: 1.5em;
+    margin-left: 1em;
+    padding-top: 1.5em;
+}
+.background7{
+    background-image: url(../assets/mobile/image-pocket-borealis.jpg);
+    background-size: contain;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+.background8{
+    background-image: url(../assets/mobile/image-curiosity.jpg);
+    background-size: contain;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+.background9{
+    background-image: url(../assets/mobile/image-fisheye.jpg);
+    background-size: contain;
+    height: 30vh;
+    background-repeat: no-repeat;
+}
+.seeCon{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom: 6em;
+}
+.seeall{
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.5em;
+    border: 2px solid black;
+    padding: .5em 1em;
+    font-weight: 500;
+}
+.blackbackground{
+    background-color: black;
+    color: white;
+    padding-bottom: 3em;
+}
+.logo2{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 3em;
+}
+.linkBox{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1em;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+.link1{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.appBox{
+    text-align: center;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    align-items: center;
+}
+.endCon{
+    text-align: center;
+    color: hsl(0, 0%, 55%);
 }
