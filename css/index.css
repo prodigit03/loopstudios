@@ -50,4 +50,6 @@
 .backgroundimage2{
     background-image: url(../assets/mobile/image-deep-earth.jpg);
     background-size: cover;
+
+    background-position: center;
 }
